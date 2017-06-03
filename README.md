@@ -21,6 +21,9 @@ BMiner is a shiny application that can be run locally on your computer through R
 
 Post issues at https://github.com/lmc297/BMiner/issues
 
+BTyper v. 1.0.0 output files for the 662 genomes used in the manuscript can be downloaded from https://github.com/lmc297/BTyper/raw/master/archive/sample_data/ncbi_btyper_final_results.zip.
+
+
 As always, some statistical analyses may not be appropriate for certain data sets. If you're unsure of what you're doing, consult a statistician.
 
 Download and learn more about BTyper here: https://github.com/lmc297/BTyper.
