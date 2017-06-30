@@ -30,9 +30,14 @@ Download and learn more about BTyper here: https://github.com/lmc297/BTyper.
 
 ### Citation
 
-If you found the BMiner app and/or its source code to be useful, please cite:
+#### If you found the BMiner app and/or its source code to be useful, please cite:
 
-Carroll, Laura M., Jasna Kovac, Rachel A. Miller, Martin Wiedmann. 2017. Rapid, high-throughput identification of anthrax-causing and emetic *Bacillus cereus* group genome assemblies using BTyper, a computational tool for virulence-based classification of *Bacillus cereus* group isolates using nucleotide sequencing data. Submitted to *Applied and Environmental Microbiology*.
+Carroll, Laura M., Jasna Kovac, Rachel A. Miller, Martin Wiedmann. 2017. Rapid, high-throughput identification of anthrax-causing and emetic *Bacillus cereus* group genome assemblies using BTyper, a computational tool for virulence-based classification of *Bacillus cereus* group isolates using nucleotide sequencing data. *Applied and Environmental Microbiology* 2017 Jun 16. pii: AEM.01096-17. doi: 10.1128/AEM.01096-17.
+
+#### Additionally, if you found BMiner's antimicrobial resistance (AMR) gene analysis methods useful (particularly if you used them in non-*Bacillus cereus* group species), you may find the following paper to be helpful; in it, we implement and validate the AMR gene detection method employed by BTyper/BMIner in *Salmonella enterica*:
+
+Carroll, Laura M., Martin Wiedmann, Henk den Bakker, Julie Siler, Steven Warchocki, David Kent, Svetlana Lyalina, Margaret Davis, William Sischo, Thomas Besser, Lorin D. Warnick, Richard V. Pereira. Whole-Genome Sequencing of Drug-Resistant *Salmonella enterica* Isolated from Dairy Cattle and Humans in New York and Washington States Reveals Source and Geographic Associations. *Applied and Environmental Microbiology* 2017 May 31;83(12).
+
 
 ------------------------------------------------------------------------
 
@@ -105,9 +110,9 @@ eggs_final_results.txt  human
 
 # Analyses Using BMiner
 
-## Analyses using data obtained from virulence gene detection
+## Analyses using data obtained from virulence/antimicrobial resistance (AMR) gene detection
 
-### Virulence Gene Distribution (Bar Plot)
+### Virulence/AMR Gene Distribution (Bar Plot)
 
 This analysis produces a bar plot with virulence genes detected in your selected files on the x-axis, and the (1) total number of isolates in your uploaded results files that possess each gene, or (2) the percent (%) of isolates in your uploaded files that possess each gene, depending on your selection in y-axis display. 
 
@@ -128,13 +133,13 @@ In BMiner, NMDS plots display NMDS axis 1 on the x-axis (NMDS1) and NMDS axis 2 
 
 ### Principal Component Analysis (PCA)
 
-This performs PCA using a virulence gene presence/absence matrix based on the input data and the 'prcomp' function in R's 'stats' package. An  interactive plot is produced using 'ggplot2'.
+This performs PCA using a virulence/AMR gene presence/absence matrix based on the input data and the 'prcomp' function in R's 'stats' package. An  interactive plot is produced using 'ggplot2'.
 
 By default, BMiner plots the first, second, and third principal components (PC1, PC2, and PC3, respectively) one the x-axis, y-axis, and as the point size, respectively. If you want to change which PCs are viewed, you can select them from the lists in the left panel. You can determine which assemblies are associated with which points by clicking on them, and you can zoom in by dragging your mouse and double-clicking on an area of the plot (double-click to zoom back out). You can color your points using your categorical metadata by checking the "Overlay Metadata" box. To download the plot, click "Download this plot" in the left panel.
 
 Note: I have hard-coded `prcomp` to scale and center the data.
 
-### Virulence Gene Presence/Absence Table
+### Virulence/AMR Gene Presence/Absence Table
 
 This produces the virulence gene presence/absence matrix that is used for the aforementioned virulence analyses. You can download this matrix by clicking "Download this table" in the left panel and use it for any post-hoc analyses you want (including the ones outlined in the BTyper manuscript!).
 
@@ -206,6 +211,16 @@ Maechler, M., Rousseeuw, P., Struyf, A., Hubert, M., Hornik, K.(2017).  cluster:
 Stefan Milton Bache and Hadley Wickham (2014). magrittr: A Forward-Pipe Operator for R. R package version 1.5. https://CRAN.R-project.org/package=magrittr
 
 Winston Chang, Joe Cheng, JJ Allaire, Yihui Xie and Jonathan McPherson (2017). shiny: Web Application Framework for R. R package version 1.0.1. https://CRAN.R-project.org/package=shiny
+
+### Antimicrobial Resistance (AMR) Gene Detection
+
+Carroll, Laura M., et al. Whole-Genome Sequencing of Drug-Resistant *Salmonella enterica* Isolates from Dairy Cattle and Humans in New York and Washington States Reveals Source and Geographic Associations. *Applied and Environmental Microbiology* 2017 May 31;83(12).
+
+Fu, L., et al. CD-HIT: accelerated for clustering the next-generation sequencing data. *Bioinformatics* 2012 Dec 1;28(23):3150-2.
+
+Gupta, SK, et al. ARG-ANNOT, a new bioinformatic tool to discover antibiotic resistance genes in bacterial genomes. *Antimicrobial Agents and Chemotherapy* 2014;58(1):212-20.
+
+Inouye, M., Harriet Dashnow, Lesley-Ann Raven, Mark B Schultz, Bernard J Pope, Takehiro Tomita, Justin Zobel and Kathryn E Holt. SRST2: Rapid genomic surveillance for public health and hospital microbiology labs. *Genome Medicine* 2014 Nov 20;6(11):90.
 
 ### Journals
 
