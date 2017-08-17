@@ -9,7 +9,7 @@ All noteable changes to BMiner will be documented in this file
 
 ### Changed
 - Renamed "Samples" to "Genomes" for all plots
-- Updated README to reflect addition of antimicrobial resistance gene detection function
+- Updated README to reflect addition of antimicrobial resistance gene detection function; updated disclaimer
 
 ## [1.0.0] 2017-05-14
 
