@@ -237,4 +237,4 @@ Steven M. Holland. Non-Metric Multidimensional Scaling (MDS). May 2008. http://s
 
 ------------------------------------------------------------------------
 
-Disclaimer: BTyper and BMiner are pretty neat! However, no tool is perfect, and BTyper and BMiner cannot definitively prove whether a *B. cereus* group isolate is pathogenic or not. As always, interpret your results with caution. We are not responsible for taxonomic misclassifications, misclassifications of an isolate's pathogenic potential, and/or misinterpretations (biological, statistical, or otherwise) of BTyper and/or BMiner results.
+Disclaimer: BTyper and BMiner are pretty neat! However, no tool is perfect, and BTyper and BMiner cannot definitively prove whether an isolate is pathogenic or not, or resistant to a particular antimicrobial. As always, interpret your results with caution. We are not responsible for taxonomic misclassifications, misclassifications of an isolate's pathogenic or antimicrobial resistance potential, and/or misinterpretations (biological, statistical, or otherwise) of BTyper and/or BMiner results.
