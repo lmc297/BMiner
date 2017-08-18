@@ -62,7 +62,14 @@ install.packages("magrittr")
 install.packages("ggrepel")
 ```
 
-4. Launch the app by typing the following command into R Studio's console:
+4. Install ggtree package (if using MLST minimum spanning tree function with metadata)
+
+```
+source("https://bioconductor.org/biocLite.R")
+biocLite("ggtree")
+```
+
+5. Launch the app by typing the following command into R Studio's console:
 ```
 runGitHub("BMiner","lmc297")
 ```
