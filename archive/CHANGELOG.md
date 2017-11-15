@@ -2,6 +2,13 @@
 
 All noteable changes to BMiner will be documented in this file
 
+## [2.0.1] 2017-11-14
+### Changed
+- Moved older versions of BMiner (1.0.0 and 2.0.0) to their own directories within the archive directory so they can be run easily using shiny's runGitHub command with the subdir option in R 
+- Updated README to clarify how to launch the current version of BMiner, as well as the older versions
+- Updated README to clarify that results files created using BTyper version 1.0.0 need to be run with BMiner version 1.0.0
+- Updated README to include the library(shiny) command as a step in launching BMiner
+
 ## [2.0.1] 2017-08-17
 ### Added
 - Added ggtree as a dependency
