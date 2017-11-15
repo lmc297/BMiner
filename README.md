@@ -41,7 +41,9 @@ Carroll, Laura M., Martin Wiedmann, Henk den Bakker, Julie Siler, Steven Warchoc
 
 ------------------------------------------------------------------------
 
-## Launching BMiner
+## Launching BMiner (Latest Version)
+### The current version of BMiner can be used with output files from BTyper versions 2.0.0 and up
+### If your output files were created using BTyper v. 1.0.0, see the section below on how to launch BMiner version 1.0.0
 
 1. Download R, if necessary: https://www.r-project.org/
 
@@ -69,9 +71,59 @@ source("https://bioconductor.org/biocLite.R")
 biocLite("ggtree")
 ```
 
-5. Launch the app by typing the following command into R Studio's console:
+5. Load shiny package
+
+```
+library(shiny)
+```
+
+6. Launch the app by typing the following command into R Studio's console:
 ```
 runGitHub("BMiner","lmc297")
+```
+
+You're ready to go!
+
+------------------------------------------------------------------------
+
+## Launching BMiner (Older Versions)
+### If your output files were created using BTyper v. 1.0.0, the following section will show you how to launch BMiner v. 1.0.0
+
+1. Download R, if necessary: https://www.r-project.org/
+
+2. Dowload R Studio, if necessary: https://www.rstudio.com/products/rstudio/download/
+
+3. Open R Studio, and install the following packages, if necessary, by typing the following commands into R Studio's console:
+
+```
+install.packages("shiny")
+install.packages("ggplot2")
+install.packages("readr")
+install.packages("stringr")
+install.packages("vegan")
+install.packages("plyr")
+install.packages("dplyr")
+install.packages("cluster")
+install.packages("magrittr")
+install.packages("ggrepel")
+```
+
+4. Install ggtree package (if using MLST minimum spanning tree function with metadata)
+
+```
+source("https://bioconductor.org/biocLite.R")
+biocLite("ggtree")
+```
+
+5. Load shiny package
+
+```
+library(shiny)
+```
+
+6. Launch version 1.0.0 of the app by typing the following command into R Studio's console:
+```
+runGitHub(repo = "BMiner", username = "lmc297", subdir = "archive/bminer-1.0.0")
 ```
 
 You're ready to go!
