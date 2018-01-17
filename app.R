@@ -278,7 +278,7 @@ server <- function(input, output) {
     if(task=="virulence"){
       vgenes<-sapply(lines,function(x) which(vapply(x,function(r) grepl("\\|",r)&&!(grepl("rpoB\\|",r))&&!(grepl("\\(",r)),FUN.VALUE = 1)==1), simplify=FALSE)}
     else if (task=="AMR"){
-      vgenes<-sapply(lines,function(x) which(vapply(x,function(r) grepl("\\|",r)&&!(grepl("rpoB\\|",r))&&(grepl("\\(",r)),FUN.VALUE = 1)==1), simplyfy=FALSE)}
+      vgenes<-sapply(lines,function(x) which(vapply(x,function(r) grepl("\\|",r)&&!(grepl("rpoB\\|",r))&&(grepl("\\(",r)),FUN.VALUE = 1)==1), simplify=FALSE)}
     print("vgenes")
     print(input$tabs)
     if(length(unlist(vgenes))==0){
