@@ -2,6 +2,10 @@
 
 All noteable changes to BMiner will be documented in this file
 
+## [2.0.2] 2018-01-17
+### Changed
+- Added simplify=FALSE to ensure sapply returns a list of virulence or AMR genes when parsing virulence and AMR sections of files (lines 279 and 281; in a case where final results files were provided that all possessed identical virulence and AMR profiles, sapply returned a matrix, and BMiner could not parse the files)
+
 ## [2.0.1] 2017-11-14
 ### Changed
 - Moved older versions of BMiner (1.0.0 and 2.0.0) to their own directories within the archive directory so they can be run easily using shiny's runGitHub command with the subdir option in R 
