@@ -285,7 +285,7 @@ server <- function(input, output) {
       return(NULL)
     }
     print(class(vgenes))
-    names(vgenes)<-isolate.names
+    colnames(vgenes)<-isolate.names
     print(vgenes)
     ###print(names(vgenes))                                                
     finalv<-lapply(1:length(vgenes),function(i) strsplit(names(vgenes[[i]]),"\\|"))
