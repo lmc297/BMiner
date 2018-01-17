@@ -286,7 +286,7 @@ server <- function(input, output) {
     }
     colnames(vgenes)<-isolate.names
     print(vgenes)                                              
-    finalv<-lapply(1:dim(vgenes)[1],function(i) strsplit(colnames(vgenes[[i]]),"\\|"))
+    finalv<-lapply(1:dim(vgenes)[2],function(i) strsplit(colnames(vgenes[[i]]),"\\|"))
     finalv<-lapply(finalv,lapply,function(i) i[1])
     finalv<-lapply(finalv,lapply,function(i) gsub(pattern = ".*\t",replacement = "",i))
     names(finalv)<-isolate.names
