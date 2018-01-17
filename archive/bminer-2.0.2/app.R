@@ -275,6 +275,7 @@ server <- function(input, output) {
   make.vmat<-function(lines,task){
     # virulence
     isolate.names<-lapply(lines,function(x) strsplit(x[1],split="BTyper Results for ")[[1]][2])
+    print(isolate.names)
     if(task=="virulence"){
       vgenes<-sapply(lines,function(x) which(vapply(x,function(r) grepl("\\|",r)&&!(grepl("rpoB\\|",r))&&!(grepl("\\(",r)),FUN.VALUE = 1)==1))}
     else if (task=="AMR"){
