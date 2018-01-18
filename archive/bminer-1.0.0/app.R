@@ -1,6 +1,5 @@
 # BMiner
 # Written by Laura Carroll, Cornell University
-# lmc297@cornell.edu
 
 library(shiny)
 library(ggplot2)
