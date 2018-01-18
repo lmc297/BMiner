@@ -1,6 +1,5 @@
 # BMiner
 # Written by Laura Carroll, Cornell University
-# lmc297@cornell.edu
 
 # load required packages
 library(shiny)
