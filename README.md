@@ -1,5 +1,6 @@
 # BMiner
-## A companion application for analyzing and viewing multiple BTyper output files in aggregate
+
+A companion application for analyzing and viewing multiple BTyper output files in aggregate
 
 ## Overview
 
