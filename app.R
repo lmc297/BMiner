@@ -425,7 +425,7 @@ server <- function(input, output) {
       
       # create mlst minimum spanning tree
       else if(input$mplot=='2'){
-        element1 <- lines[1]
+        element1 <- lines[1][[1]]
         print("element1")
         print(element1)
         mgenes<-lapply(lines,function(x) which(x%in%"ST\tglp\tgmk\tilv\tpta\tpur\tpyc\ttpi"))
