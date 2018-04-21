@@ -35,7 +35,7 @@ Download and learn more about BTyper here: https://github.com/lmc297/BTyper.
 
 Carroll, Laura M., Jasna Kovac, Rachel A. Miller, Martin Wiedmann. 2017. Rapid, high-throughput identification of anthrax-causing and emetic *Bacillus cereus* group genome assemblies using BTyper, a computational tool for virulence-based classification of *Bacillus cereus* group isolates using nucleotide sequencing data. *Applied and Environmental Microbiology* 2017 Jun 16. pii: AEM.01096-17. doi: 10.1128/AEM.01096-17.
 
-#### Additionally, if you found BMiner's antimicrobial resistance (AMR) gene analysis methods useful (particularly if you used them in non-*Bacillus cereus* group species), you may find the following paper to be helpful; in it, we implement and validate the AMR gene detection method employed by BTyper/BMIner in *Salmonella enterica*:
+#### Additionally, if you found BMiner's antimicrobial resistance (AMR) gene analysis methods useful (particularly if you used them in non-*Bacillus cereus* group species), you may find the following paper to be helpful; in it, we implement and validate the AMR gene detection method employed by BTyper/BMiner in *Salmonella enterica*:
 
 Carroll, Laura M., Martin Wiedmann, Henk den Bakker, Julie Siler, Steven Warchocki, David Kent, Svetlana Lyalina, Margaret Davis, William Sischo, Thomas Besser, Lorin D. Warnick, Richard V. Pereira. Whole-Genome Sequencing of Drug-Resistant *Salmonella enterica* Isolated from Dairy Cattle and Humans in New York and Washington States Reveals Source and Geographic Associations. *Applied and Environmental Microbiology* 2017 May 31;83(12).
 
