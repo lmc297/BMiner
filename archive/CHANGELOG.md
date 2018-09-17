@@ -3,8 +3,11 @@
 All noteable changes to BMiner will be documented in this file
 
 ## [2.1.0] 2018-09-17
-## Added
+### Added
 - Added ANIb tab and parsing to construct a bar graph using ANIb results from BTyper version 2.3.0; all BTyper results from BTyper versions 2.0.0 and up can still be used with this version of BMiner
+
+### Changed
+-Updated README to reflect addition of ANIb results parsing
 
 ## [2.0.2] 2018-01-17
 ### Changed
