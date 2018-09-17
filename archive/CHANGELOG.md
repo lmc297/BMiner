@@ -2,6 +2,10 @@
 
 All noteable changes to BMiner will be documented in this file
 
+## [2.1.0] 2018-09-17
+## Added
+- Added ANIb tab and parsing to construct a bar graph using ANIb results from BTyper version 2.3.0; all BTyper results from BTyper versions 2.0.0 and up can still be used with this version of BMiner
+
 ## [2.0.2] 2018-01-17
 ### Changed
 - Added simplify=FALSE to ensure sapply returns a list of virulence or AMR genes when parsing virulence and AMR sections of files (lines 279 and 281; in a case where final results files were provided that all possessed identical virulence and AMR profiles, sapply returned a matrix, and BMiner could not parse the files)
