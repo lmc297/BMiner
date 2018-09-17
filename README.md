@@ -219,6 +219,18 @@ The miminum spanning tree created by BMiner is based on the 7 *B. cereus* alleli
 
 Note: the "Overlay Metadata" and interactive plot-click functions for minimum spanning trees are currently under development. For small data sets, you can check the "Overlay Metadata", and pie charts will appear in lieu of points. However, this has not been optimized for larger data sets yet, so you may get an error message. To get the ST information of a particular point, look at the minimum spanning tree plot in the "Plots" tab of R Studio, or download a PDF of your plot by clicking the "Download this plot" button in the left panel (this will output a simple plot with ST information overlaid on points, as well as the `ggplot` version displayed by BMiner).
 
+## Analyses using ANIb species determination data
+
+### ANIb Closest Species Distribution (Bar Plot)
+
+This analysis produces a bar plot with *B. cereus* group species on the x-axis, and the (1) total number of isolates in your uploaded results files that are closest to a particular species using ANIb, or (2) the percent (%) of isolates in your uploaded files that are closest to a particular species using ANIb, depending on your selection in y-axis display.
+
+To download the plot as a PDF, click the "Download this plot" in the left panel.
+
+Note that ANIb was added as an optional analysis in BTyper version 2.3.0. If you are not using BTyper version 2.3.0, or if you did not specify ```-b True``` in BTyper version 2.3.0, you will not have any results to display here. 
+
+Also note that the current version of BMiner (version 2.1.0, the README displayed here) is compatible with results files from all versions of BTyper 2.0.0 and up, i.e., don't panic if you're not using the latest version of BTyper; you can still analyze your results files from previous BTyper versions, as long as they were produced using BTyper version 2.0.0 or higher (if your results files are from BTyper version 1.0.0, you still need to run BMiner version 1.0.0, as described previously).
+
 ## Analyses using *rpoB* allelic typing data
 
 ### *rpoB* Allelic Type (AT) Distribution (Bar Plot)
