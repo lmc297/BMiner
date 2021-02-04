@@ -4,7 +4,7 @@ A companion application for analyzing and viewing multiple BTyper output files i
 
 ## Overview
 
-BMiner is BTyper's companion application for analyzing and viewing data from multiple BTyper output files in aggregate. BMiner can be used to:
+BMiner is BTyper's companion application for analyzing and viewing data from multiple BTyper output files (produced by BTyper version 2.X.X and earlier) in aggregate. BMiner can be used to:
 
 * Analyze data generated from hundreds of *Bacillus cereus* group genomes
 
@@ -13,6 +13,8 @@ BMiner is BTyper's companion application for analyzing and viewing data from mul
 * Produce publication-quality PDFs that incorporate categorical metadata from *B. cereus* group isolates
 
 BMiner CANNOT:
+
+* Use files produced by <a href="https://github.com/lmc297/BTyper3">BTyper3</a> as input (only files produced by the original <a href="https://github.com/lmc297/BTyper">BTyper (version 2.X.X and earlier)</a> can be used with BMiner, as the two tools are distinct and produce output files in different formats)
 
 * Determine if a particular statistical analysis is appropriate for a particular data set; it merely provides you (the user) with options. If you're unsure of whether an analysis (or your interpretation of it) is appropriate or not, consult a statistician.
 
