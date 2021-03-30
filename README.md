@@ -70,8 +70,10 @@ install.packages("ggrepel")
 4. Install ggtree package (if using MLST minimum spanning tree function with metadata)
 
 ```
-source("https://bioconductor.org/biocLite.R")
-biocLite("ggtree")
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("ggtree")
 ```
 
 5. Load shiny package
@@ -114,8 +116,10 @@ install.packages("ggrepel")
 4. Install ggtree package (if using MLST minimum spanning tree function with metadata)
 
 ```
-source("https://bioconductor.org/biocLite.R")
-biocLite("ggtree")
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("ggtree")
 ```
 
 5. Load shiny package
